@@ -143,17 +143,6 @@ namespace includesort
                 }
             }
         }
-
-        private class IncludeStatement
-        {
-            public string Name { get; set; }
-            public char Symbol { get; set; }
-
-            public IncludeStatement(string name, char symbol)
-            {
-                Name = name;
-                Symbol = symbol;
-            }
-        }
+  
     }
 }
