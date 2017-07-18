@@ -11,6 +11,7 @@ namespace includesort
         public static void Main(string[] args)
         {
             Console.Title = "includesort";
+            Console.WriteLine("Created by Sorin Vijoaica (Wops)\n");
 
             // Checks if the user just wants help
             if (args.Length == 1 && args[0] == "-h")
@@ -19,8 +20,6 @@ namespace includesort
                 Console.ReadKey(true);
                 return;
             }
-
-            Console.WriteLine("Made by Sorin Vijoaica (Wops)\n");
 
             // Evaluates the arguments to set the flags
             ParseArguments(args);
